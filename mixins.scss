@@ -1,0 +1,23 @@
+@mixin flex($direction, $justifyContent: center, $alignItems: center) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justifyContent;
+    align-items: $alignItems;
+}
+
+@mixin td {
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #ff7878;
+    width: 10vw;
+    height: 10vh;
+
+    &:not(.td-title) {
+        @media(hover: hover) {
+            &:hover {
+                border: 5px solid #ff4c4c;
+            }
+        }
+    }
+}

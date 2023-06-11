@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.ico">
+    <link rel="stylesheet" href="./index.css">
+    <title>Calendar</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>
+                Calendar
+            </h1>
+        </header>
+        <main class="main">
+            <div class="date">
+                <button id="prev" class="button" onclick="prevMonth(data)">&#8592;</button>
+                <h2 id="date"></h2>
+                <button id="next" class="button" onclick="nextMonth(data)">&#8594;</button>
+            </div>
+            <table class="table">
+                <tr id="tr" class="tr-title">
+                    <td id="td" class="td-title">Mon</td>
+                    <td id="td" class="td-title">Tue</td>
+                    <td id="td" class="td-title">Wed</td>
+                    <td id="td" class="td-title">Thu</td>
+                    <td id="td" class="td-title">Fri</td>
+                    <td id="td" class="td-title">Sat</td>
+                    <td id="td" class="td-title">Sun</td>
+                </tr>
+                <tr id="tr" class="tr">
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                </tr>
+                <tr id="tr" class="tr">
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                </tr>
+                <tr id="tr" class="tr">
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                </tr>
+                <tr id="tr" class="tr">
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                </tr>
+                <tr id="tr" class="tr">
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                </tr>
+                <tr id="tr" class="tr">
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                    <td id="td" class="td"></td>
+                </tr>
+            </table>
+        </main>
+        <footer class="footer">
+            <p>
+                © Vasiliy <a href="https://shevluk.ru">Shevluk</a>, 2021 - 2023
+            </p>
+            <p>
+                <a href="mailto:mrballon@yandex.ru">E-Mail</a>
+            </p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
